@@ -1,0 +1,567 @@
+.btn {
+  border: 0;
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.purple {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: 0.035em;
+  color: #5a34ab;
+  text-decoration: none;
+}
+.purple:hover {
+  color: #5a34ab;
+  cursor: pointer;
+}
+.btnNavContact {
+  background-color: #ff684b;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  padding: 7px 23px;
+}
+.banner {
+  background-image: url(../assets/images/purple-bg.png);
+  background-size: cover;
+  padding: 150px 0;
+  position: relative;
+}
+.bannerFg {
+  position: absolute;
+  bottom: 0;
+  right: 130px;
+  max-height: 95%;
+  object-fit: contain;
+}
+.bannerTextContainer {
+  max-width: 700px;
+  margin-left: 100px;
+}
+.bannerHeading {
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffff;
+}
+.bannerPara {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 35px;
+}
+.btnBanner {
+  background: #ffa901;
+  color: #5a34ab;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 25px;
+  margin-top: 35px;
+}
+.builtContainer {
+  padding: 73px 50px 0 50px;
+}
+.innovators {
+  text-align: center;
+  padding: 73px 50px;
+  background: #faf8f7;
+}
+.trustHeading {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+.trustPara {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.9;
+  max-width: 1061px;
+  margin: 30px auto 50px;
+  text-align: center;
+}
+.trustImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trustImg {
+  width: 160px;
+  height: 80px;
+}
+.trustImg img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+.builtSec {
+  margin: 95px 0;
+  overflow: hidden;
+}
+.builtSecHeadingContainer {
+  border: 1px solid #c5c5c5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+.builtSecTopHeading {
+  font-family: "Averta";
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #ff684b;
+  margin: 0;
+  position: relative;
+  line-height: 1;
+}
+.builtSecTopHeading p {
+  margin: 0;
+}
+.builtSecTopHeadingNumber {
+  position: absolute;
+  font-family: "Averta";
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  font-size: 96px;
+  line-height: 1;
+  letter-spacing: -7px;
+  color: #f2f2f2;
+  z-index: -1;
+  top: -85%;
+  left: -40px;
+}
+.builtSecHeading {
+  font-family: "Averta";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.6;
+  margin: 35px 0 25px;
+}
+.builtSecBullets {
+  font-family: "Averta";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #606f7b;
+}
+.builtSecBottom {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 34px;
+}
+.builtSecImage {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.userImage {
+  width: 70%;
+  height: 70%;
+}
+.marketingImage {
+  width: 85%;
+  height: 85%;
+}
+.engagementImage {
+  width: 90%;
+  height: 90%;
+}
+.integrationImage {
+  width: 80%;
+  height: 80%;
+}
+.expSec {
+  background-image: url("../assets/images/group.png");
+  background-size: cover;
+  margin: 150px 75px;
+  padding: 80px 60px;
+  border-radius: 25px;
+}
+.expSecContainer {
+  max-width: 660px;
+}
+.expSecHeading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #ff684b;
+}
+.expSecPara {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.expSecBtn {
+  background: #ff684b;
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 30px;
+  margin-top: 45px;
+}
+.trackingSec {
+  background-image: url(../assets/images/purple-bg.png);
+  background-size: cover;
+  padding: 70px 120px;
+  position: relative;
+}
+.trackingSecFg {
+  position: absolute;
+  bottom: 0;
+  right: 35px;
+}
+.trackingSecContainer {
+  max-width: 719px;
+}
+.trackingSecHeading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #ffff;
+}
+.trackingSecPara {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.trackingSecBtn {
+  background: #ffa901;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 30px;
+  margin-top: 40px;
+}
+.contactSec {
+  background-image: url("../assets/images/contact.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 110px;
+}
+.contactSecContainer {
+  max-width: 560px;
+}
+.contactSecHeading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.8;
+  color: #323232;
+}
+.contactSecPara {
+  font-family: "Averta";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #232323;
+  margin-top: 40px;
+}
+.contactSecFormContainer {
+  background: #ffffff;
+  box-shadow: 0px 80.6px 105.701px rgba(51, 51, 51, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 590px;
+}
+.contactSecField {
+  height: 55px;
+}
+.contactSecNames {
+  display: flex;
+  column-gap: 25px;
+}
+.contactSecArea {
+  height: 160px;
+}
+.contactSecAccept {
+  font-family: "Averta";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  color: #303030;
+}
+.contactSecBtn {
+  margin-top: 20px;
+  background: #ee2737;
+  font-family: "Averta";
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 5px 50px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .banner {
+    padding: 80px 0;
+  }
+  .bannerTextContainer {
+    margin-left: 60px;
+  }
+  .bannerFg {
+    right: 10px;
+  }
+  .trustImg {
+    width: 150px;
+    height: 70px;
+  }
+  .userImage {
+    width: 80%;
+    height: 80%;
+  }
+  .trackingSec {
+    padding: 60px 80px;
+  }
+  .trackingSecFg {
+    right: 5px;
+  }
+  .contactSec {
+    padding: 110px 80px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .purple {
+    font-size: 28px;
+  }
+  .bannerHeading {
+    font-size: 44px;
+  }
+  .bannerPara,
+  .btnBanner {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .bannerTextContainer {
+    max-width: 100%;
+    margin: 0 60px;
+  }
+  .bannerFg {
+    display: none;
+  }
+  .trustHeading {
+    font-size: 44px;
+  }
+  .trustPara {
+    font-size: 16px;
+    margin: 25px auto 42px;
+  }
+  .trustImgContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .userImage {
+    width: 100%;
+    height: 100%;
+  }
+  .builtSecHeadingContainer {
+    padding: 65px 0;
+  }
+  .builtSecTopHeading {
+    font-size: 32px;
+  }
+  .builtSecTopHeadingNumber {
+    font-size: 86px;
+  }
+  .builtSecHeading {
+    font-size: 24px;
+  }
+  .builtSecBullets {
+    font-size: 18px;
+  }
+  .expSec {
+    margin: 100px 50px;
+    padding: 60px 50px;
+    border-radius: 25px;
+  }
+  .expSecHeading {
+    font-size: 44px;
+  }
+  .expSecPara,
+  .expSecBtn {
+    font-size: 16px;
+  }
+  .trackingSecContainer {
+    max-width: unset;
+  }
+  .trackingSecFg {
+    display: none;
+  }
+  .trackingSecHeading {
+    font-size: 44px;
+  }
+  .trackingSecPara,
+  .trackingSecBtn {
+    font-size: 16px;
+  }
+  .contactSecHeading {
+    font-size: 32px;
+  }
+  .contactSecPara {
+    font-size: 18px;
+  }
+  .contactSecFormContainer input,
+  .contactSecFormContainer textarea {
+    font-size: 14px;
+  }
+  .contactSecBtn {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .contactSecContainer {
+    max-width: unset;
+    margin-bottom: 50px;
+  }
+  .contactSecFormContainer {
+    max-width: unset;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .purple {
+    font-size: 24px;
+  }
+  .btnNavContact {
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+  .banner {
+    aspect-ratio: unset;
+    padding: 40px 0px;
+  }
+  .bannerHeading {
+    font-size: 36px;
+  }
+  .bannerPara,
+  .btnBanner {
+    font-size: 15px;
+    margin-top: 16px;
+  }
+  .btnBanner {
+    padding: 5px 20px;
+  }
+  .innovators {
+    padding: 55px 20px;
+  }
+  .trustHeading {
+    font-size: 36px;
+  }
+  .trustPara {
+    font-size: 15px;
+  }
+  .trustImg {
+    width: 130px;
+    height: 60px;
+  }
+  .builtSec {
+    margin: 50px 0;
+  }
+  .builtContainer {
+    padding: 55px 20px 0 20px;
+  }
+  .builtSecHeadingContainer {
+    padding: 58px 0;
+  }
+  .builtSecTopHeading {
+    font-size: 28px;
+  }
+  .builtSecTopHeadingNumber {
+    font-size: 78px;
+    left: -30px;
+  }
+  .builtSecHeading {
+    font-size: 21px;
+  }
+  .builtSecBullets {
+    font-size: 16px;
+  }
+  .userImage {
+    width: 75%;
+    height: 75%;
+  }
+  .expSec {
+    margin: 60px 40px;
+  }
+  .expSecHeading {
+    font-size: 36px;
+  }
+  .expSecPara,
+  .expSecBtn {
+    font-size: 15px;
+  }
+  .expSecBtn {
+    margin-top: 25px;
+  }
+  .trackingSec {
+    padding: 60px;
+  }
+  .trackingSecHeading {
+    font-size: 36px;
+  }
+  .trackingSecPara,
+  .trackingSecBtn {
+    font-size: 15px;
+  }
+  .trackingSecBtn {
+    margin-top: 25px;
+  }
+  .contactSec {
+    padding: 80px 60px;
+  }
+  .contactSecHeading {
+    font-size: 26px;
+  }
+  .contactSecPara {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .bannerTextContainer {
+    margin: 0px 30px;
+  }
+  .builtSecBottom {
+    width: 85%;
+  }
+  .builtSecTopHeading {
+    width: 100%;
+  }
+  .builtSecTopHeadingNumber {
+    top: -55px;
+    left: 0px;
+  }
+  .userImage {
+    width: 100%;
+    height: 100%;
+  }
+  .expSec {
+    margin: 50px 20px;
+    padding: 40px 30px;
+    border-radius: 35px;
+  }
+  .trackingSec {
+    padding: 40px 30px;
+  }
+  .contactSec {
+    padding: 50px 30px;
+  }
+  .contactSecFormContainer {
+    padding: 30px 20px;
+  }
+  .contactSecNames {
+    column-gap: 15px;
+  }
+  .contactSecBtn {
+    width: 100%;
+  }
+}
